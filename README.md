@@ -23,7 +23,7 @@ TaskBit is a novel approach to task management, utilizing the power of blockchai
 Your contributions are highly valued! Whether you're a blockchain expert or a newcomer eager to learn, you're welcome to contribute. Submit issues, propose enhancements, or create pull requests – let's work together to refine TaskBit's functionality.
 
 ## 🔗 Links
-- **Live Demo**: [[Insert Demo Link](https://sdtask.netlify.app/)]
+- **Live Demo**: [[Demo Link](https://sdtask.netlify.app/)]
 - **Documentation**: [Insert Documentation Link]
 
 ## 📧 Contact Us
