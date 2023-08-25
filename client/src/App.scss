@@ -16,6 +16,23 @@
         padding: 10px 15px;
     }
 
+    h1{
+        margin: 10px 0px;
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: center;
+        text-shadow: -0.04em 0.04em 0 #00000050,
+            0.04em 0.04em 0 #00000050,
+            0.04em -0.04em 0 #00000050,
+            -0.04em -0.04em 0 #00000050;
+
+        @media (max-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+
     .Title {
         display: flex;
         align-items: center;
@@ -111,6 +128,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
     margin-bottom: 25px;
     background-color: #fff;
 
@@ -129,6 +147,7 @@
         font-weight: 500;
         color: #272829;
         text-decoration: none;
+
         cursor: pointer;
 
         @media (max-width: 768px) {

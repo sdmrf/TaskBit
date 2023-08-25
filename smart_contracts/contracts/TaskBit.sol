@@ -8,6 +8,10 @@ contract TaskBit {
         bool complete;
     }
 
+    constructor() {
+        addTodo("Hi! Welcome to TaskBit. Developed by Sdmrf");
+    }
+
     mapping(uint256 => Todo) public todos;
     uint256 public todoCount;
 

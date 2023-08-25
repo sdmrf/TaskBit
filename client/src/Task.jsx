@@ -1,23 +1,23 @@
 import "./App.scss";
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 
-const Task = ({ Task, handleToggle, handleDelete }) => {
+const Task = ({ task, handleToggle, handleDelete }) => {
   const toggleTask = () => {
-    handleToggle(Task.id);
+    handleToggle(task.id);
   };
 
   const deleteTask = () => {
-    handleDelete(Task.id);
+    handleDelete(task.id);
   };
 
-  return (
+  return task.name === "" ? null : (
     <div className="Task">
-      <div className={Task.complete ? "Task-Text Completed" : "Task-Text"}>
-        <p>{Task.name}</p>
+      <div className={task.complete ? "Task-Text Completed" : "Task-Text"}>
+        <p>{task.name}</p>
       </div>
       <div className="Task-Buttons">
         <button onClick={toggleTask}>
-          {Task.complete ? "Ongoing" : "Done"}
+          {task.complete ? "Ongoing" : "Done"}
         </button>
         <div className="Task-Delete" onClick={deleteTask}>
           <DeleteForeverIcon />
